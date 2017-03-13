@@ -24,3 +24,43 @@ h1 {
 input {
   border-color: #f2f2f2;
 }
+
+textarea {
+  border-color: #f2f2f2;
+}
+
+select {
+  border-color: #f2f2f2;
+}
+
+legend {
+  padding-bottom: 1rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .one {
+    width: 49.5%;
+    display: inline-block;
+  }
+
+  .two {
+    width: 49.5%;
+    display: inline-block;
+  }
+
+  .three {
+    width: 49.5%;
+    display: inline-block;
+  }
+
+  .four {
+    width: 49.5%;
+    display: inline-block;
+  }
+}
