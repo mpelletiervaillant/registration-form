@@ -17,6 +17,10 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
+h1 {
+  border-bottom: 1px solid black;
+}
+
+input {
+  border-color: #f2f2f2;
 }
