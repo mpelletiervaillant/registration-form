@@ -16,9 +16,12 @@
     <div class="max-length">
       <h1 class="pad-t">Want to go to Mars?</h1>
       <p class="mega">We're looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <h2 class="italic">Personal details</h2>
+
 
       <form class="push-0" method="POST" action="https://formspree.io/pell0227@alqonquinlive.com">
+
+        <fieldset>
+          <legend class='italic peta'>Personal details</legend>
         <div class="push">
           <label for="name">Name</label>
           <input id="name" name="name">
@@ -26,7 +29,7 @@
 
         <div class="push">
           <label for="age">Age</label>
-          <input id="number" name="age">
+          <input id="age" name="age">
         </div>
 
         <div class="push">
@@ -35,8 +38,8 @@
         </div>
 
         <div class="push">
-          <label for="physical fitness">Physical fitness </label>
-          <select id="text" name="physical fitness">
+          <label for="fitness">Physical fitness </label>
+          <select id="fitness" name="physical fitness">
             <option>Super-human</option>
             <option>Fit as a fiddle</option>
             <option>Not terribly strong</option>
@@ -46,14 +49,18 @@
 
         <div class="push">
           <label for="address">Address</label>
-          <textarea id="text" name="address"></textarea>
+          <textarea id="address" name="address"></textarea>
         </div>
 
-        <h2 class="italic">Mission statement</h2>
+      </fieldset>
+
+      <fieldset>
+        <legend class='italic peta'>Mission statement</legend>
         <div class="push">
-          <label for="mission statement">Why do you want to go to Mars?</label>
-          <textarea id="mission statement" name="message"></textarea>
+          <label for="statement">Why do you want to go to Mars?</label>
+          <textarea id="statement" name="message"></textarea>
         </div>
+      </fieldset>
 
         <div>
           <button class="btn btn-light" type="submit">Register for the trip!</button>
