@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+</head>
+<body>
+
+  <section class="contact pad-t-2 pad-b-2">
+    <div class="max-length">
+      <h1>Want to go to Mars?</h1>
+      <p>We're looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime</p>
+      <h2 class="italic">Personal details</h2>
+
+      <form class="push-0" method="POST" action="https://formspree.io/pell0227@alqonquinlive.com">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" name="name">
+        </div>
+
+        <div class="push">
+          <label for="age">Age</label>
+          <input id="age" name="age">
+        </div>
+
+        <div class="push">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email">
+        </div>
+
+        <div class="push">
+          <label for="Physical Fitness">Physical Fitness </label>
+          <select id="subject" name="_subject">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+
+        <div class="push">
+          <label for="address">Address</label>
+          <textarea id="address" name="message"></textarea>
+        </div>
+
+        <h2 class="italic">Mission statement</h2>
+        <div class="push">
+          <label for="mission statement">Why do you want to go to Mars?</label>
+          <textarea id="mission statement" name="message"></textarea>
+        </div>
+
+        <div>
+          <button class="btn btn-light" type="submit">Register for the trip!</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
